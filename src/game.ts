@@ -159,7 +159,7 @@ function removeRoomCard(state: Game, card: Card): Room {
 }
 
 function countRoomCards(state: Game): number {
-  return state.room.filter((card) => card !== null).length
+  return state.room.filter((card) => !!card).length
 }
 
 export const LAST_ROOM = Math.ceil((DECK.length - 4) / 3) + 1
