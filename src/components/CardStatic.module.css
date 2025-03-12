@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #c0c0c0;
+  aspect-ratio: 2 / 3;
+  width: 8rem;
+  background-color: #fffdf8;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line div {
+  padding: 0.5rem;
+}
+
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.symbol {
+  font-size: 1.1rem;
+}
+
+.clubs {
+  color: #000000;
+}
+
+.spades {
+  color: #000000;
+}
+
+.hearts {
+  color: #ff0000;
+}
+
+.diamonds {
+  color: #ff0000;
+}

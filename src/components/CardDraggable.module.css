@@ -1,0 +1,9 @@
+.draggable {
+  cursor: grab;
+  touch-action: none;
+}
+
+.dragging {
+  cursor: grabbing;
+  z-index: 1000;
+}

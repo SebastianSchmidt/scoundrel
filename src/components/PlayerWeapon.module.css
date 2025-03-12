@@ -1,0 +1,26 @@
+.weapon {
+  width: 8rem;
+  position: relative;
+}
+
+.placeholder {
+  aspect-ratio: 2 / 3;
+  width: 100%;
+
+  border: 1px solid #000000;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipped {
+  width: 100%;
+}
+
+.lastKill {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+}

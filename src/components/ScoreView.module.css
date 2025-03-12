@@ -1,0 +1,22 @@
+.scoreBackdrop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  color: #ffffff;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}

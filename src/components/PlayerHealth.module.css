@@ -1,0 +1,12 @@
+.health {
+  aspect-ratio: 2 / 3;
+  width: 8rem;
+  height: 100%;
+
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

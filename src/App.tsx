@@ -1,5 +1,7 @@
+import { GameView } from './components/GameView.tsx'
+
 function App() {
-  return <div>Scoundrel</div>
+  return <GameView />
 }
 
 export default App

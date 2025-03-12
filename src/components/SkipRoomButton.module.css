@@ -1,0 +1,9 @@
+.wrapper {
+  aspect-ratio: 2 / 3;
+  width: 8rem;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
