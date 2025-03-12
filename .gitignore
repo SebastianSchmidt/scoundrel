@@ -1,0 +1,18 @@
+# Node
+node_modules
+npm-debug.log
+
+# Vite
+dist
+
+# Editors and system files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
